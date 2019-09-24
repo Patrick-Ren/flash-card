@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .prev, .next {
+            font-size: 20px;
+            cursor: pointer;
+            &:hover {
+                color: orange;
+            }
+        }
+        .prev {
+            margin-right: 60px;
+        }
+
+        .next {
+            margin-left: 60px;
+        }
+    }
+}
