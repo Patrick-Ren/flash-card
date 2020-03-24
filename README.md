@@ -1,1 +1,1 @@
-flash card app
+Flash Card Demo
